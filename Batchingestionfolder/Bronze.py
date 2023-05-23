@@ -35,6 +35,7 @@ df = spark.read.format("csv") \
 
 # Print the inferred schema
 df.printSchema()
+print('Iam from github')
 
 # Show the data
 
